@@ -13,5 +13,5 @@ imprime(texto);
 texto = "foda-se";
 imprime(texto);
 
-texto = "meu caralho"
+texto = "temos que ser mais educados"
 imprime(texto);
