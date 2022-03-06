@@ -11,10 +11,10 @@ let texto ="oi";
 imprime(texto);
 imprime(texto);
 
-texto = "fodase";
+texto = "foda-se";
 imprime(texto);
+imprime(texto)
 
-texto = "temos que ser mais fodão"
+texto = "temos que ser mais fodão";
 imprime(texto);
-
 imprime(texto);
