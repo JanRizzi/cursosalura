@@ -11,7 +11,7 @@ let texto ="oi";
 imprime(texto);
 imprime(texto);
 
-texto = "foda-se";
+texto = "fodase";
 imprime(texto);
 
 texto = "temos que ser mais fodão"
