@@ -9,9 +9,12 @@ function imprime(texto) {
 
 let texto ="oi";
 imprime(texto);
+imprime(texto);
 
 texto = "foda-se";
 imprime(texto);
 
 texto = "temos que ser mais fodão"
+imprime(texto);
+
 imprime(texto);
