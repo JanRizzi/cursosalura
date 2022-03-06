@@ -9,6 +9,9 @@ function imprime(texto) {
 
 let texto ="oi";
 imprime(texto);
+ 
+texto = "caracas"; 
+imprime(texto);
 
 texto = "foda-se";
 imprime(texto);
