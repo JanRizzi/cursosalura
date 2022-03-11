@@ -3,8 +3,10 @@
 const nome = 'Jander';
 const idade = 2022-2005;
 const cidadeNascimento = 'Santo André';
-//const apresentacao = 'Meu nome é ' + nome + ', minha idade é ' + idade + ' e nasci em ' + cidadeNascimento;
-                   
+const apresentacao1 = 'Meu nome é ' + nome + ', minha idade é ' + idade + 
+' e nasci em ' + cidadeNascimento;
+
+console.log(apresentacao1)
 // exemplo com template string
 
                     // abre e fecha com acento grave
