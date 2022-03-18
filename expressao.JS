@@ -23,7 +23,7 @@ function apresentar(nome){
 
 //console.log(apresentar1('Jander'))
 //Esse vai dar erro porque não chama a constante
-// as funçoes e as var são inicializadas todas antes
+// as funçoes e as var são inicializadas todas antes (hoisting)
 
 const apresentar1 = function(nome){return `meu nome é ${nome}`}
 
