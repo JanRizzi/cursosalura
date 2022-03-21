@@ -16,7 +16,7 @@ console.log(listaDeDestinos)
 
 //condicional ==> vender só para maiores de idade
 
-let idadeComprador = 118
+let idadeComprador = 11
 let estaAcompanhado = false
 if (idadeComprador >= 18) {
     console.log(`pode comprar, ele tem ${idadeComprador} anos,
