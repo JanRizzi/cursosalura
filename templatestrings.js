@@ -7,6 +7,8 @@ const apresentacao1 = 'Meu nome é ' + nome + ', minha idade é ' + idade +
 ' e nasci em ' + cidadeNascimento;
 
 console.log(apresentacao1)
+
+
 // exemplo com template string
 
                     // abre e fecha com acento grave
