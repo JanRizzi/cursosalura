@@ -22,7 +22,24 @@ somaNumeros = 0
 
 let contador = 1
 
-numeros.forEach(numero => {
+numeros.forEach(chamaFuncao)
+
+function chamaFuncao(numero){
+    if (numero < 7) {
+        console.log(`${contador} ====> ${numero} nota abaixo da média exigida`)
+        somaNumeros = somaNumeros + numero
+        contador++
+    } else {
+        console.log(`${contador} ====> ${numero} boa nota parabens`)
+        somaNumeros = somaNumeros + numero
+        contador++
+    }
+}
+
+console.log(`a média é ${media}`)
+
+contador =1
+numeros.forEach(numero =>{
     if (numero < 7) {
         console.log(`${contador} ====> ${numero} nota abaixo da média exigida`)
         somaNumeros = somaNumeros + numero
@@ -33,6 +50,12 @@ numeros.forEach(numero => {
         contador++
     }
 })
+
+console.log(`a média é ${media}`)
+
+somaNumeros = 0
+contador =1
+numeros.forEach(chamaFuncao)
 
 media = somaNumeros / numeros.length
 
