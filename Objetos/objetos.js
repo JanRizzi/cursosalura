@@ -81,5 +81,44 @@ cliente.dependentes = [{
     parentesco: 'filha'
 }]
 
+cliente.dependentes.push({
+    nome: 'Abelardo Barbosa',
+    idade: 8,
+    parentesco: 'filho'
+})
+
 console.log(cliente)
+
+const filhosMenores = cliente.dependentes.filter(dep => dep.idade < 18)
+
+for (i = 0; i < filhosMenores.length; i++) {
+    console.log(`dependente menor ${filhosMenores[i].nome} é ${filhosMenores[i].parentesco}.`)
+}
+
+console.log('--------------------------------')
+// desafio 7 fazer depósitos
+cliente.limite = 10
+cliente.saldo = 0
+
+cliente.depositar = function (valor) {
+    this.saldo += valor
+}
+
+cliente.sacar = function (valor) {
+    //console.log(this.saldo + this.limite)
+    if (valor > (this.saldo + this.limite)) {
+        console.log(`limite estourado em ${valor - (this.saldo + this.limite)} operação não efetuada `)
+
+    } else {
+        this.saldo -= valor
+        if (this.saldo < 0) {
+            console.log(`saldo negativo ${this.saldo}`)
+        }
+    }
+}
+
+cliente.depositar(30)
+cliente.sacar(30)
+console.log(`seu saldo é ${cliente.saldo}`)
+console.log(`seu limite de crédito é ${cliente.limite}`)
 

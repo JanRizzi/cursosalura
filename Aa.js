@@ -5,22 +5,22 @@
 
 
 function imprime(texto) {
-    if (texto == "foda-se")
-       console.log(texto + " sou mal educado");
+    if (texto == "Olá mundo")
+       console.log(texto + ", eu sou do mundo");
 
        else
-       console.log(`${texto} sou bem legal`);
+       console.log(`${texto}, eu sou bem legal`);
 }
   
 
 let texto ="oi";
 imprime(texto);
-imprime(texto);
+//imprime(texto);
 
-texto = "foda-se";
+texto = "Olá mundo";
 imprime(texto);
-imprime(texto)
+//imprime(texto)
 
-texto = "temos que ser mais fodão";
+texto = "temos que ser mais legais";
 imprime(texto);
-imprime(texto);
+//imprime(texto);
