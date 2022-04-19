@@ -32,7 +32,7 @@ Passagem vendida para ${listaDeDestinos[contador]}`)
             listaDeDestinos.splice((contador), 1)
         } else {
             console.log(`não pode comprar pois tem só ${idadeComprador} anos
-não vai nem fudendo para ${listaDeDestinos[contador]}`)
+não vai poder embarcar para ${listaDeDestinos[contador]}`)
             passagemComprada = false
         }
         break

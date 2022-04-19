@@ -30,7 +30,7 @@ if (idadeComprador >= 18) {
     listaDeDestinos.splice(2, 1)
 } else {
     console.log(`não pode comprar pois tem só ${idadeComprador} anos
-            não vai nem fudendo para ${listaDeDestinos[2]}`)
+            não vai poder embarcar para ${listaDeDestinos[2]}`)
 }
 
 console.log(listaDeDestinos)
